@@ -5,7 +5,7 @@
    Hệ quản trị: SQL Server 2016 SP1 trở lên (dùng CREATE OR ALTER, THROW).
 
    v3 so với v2: thêm sp_ThemTaiKhoan và sp_SuaNhom (theo yêu cầu của UI11, UI12).
-   Đã chạy thật trên SQL Server 2022 Express: v2 33/33 ca PASS (09/11/2026); v3 54/54 ca PASS (11/11/2026).
+   Đã chạy thật trên SQL Server 2022 Express: v2 33/33 ca PASS (09/11/2026); v3 59/59 ca PASS (12/11/2026, phủ 28/29 mã lỗi nghiệp vụ).
 
    QUYẾT ĐỊNH ĐANG DÙNG (xem sheet 'Cần xác nhận'):
      Q02 (đã chốt, chờ Nguyên): cho phép nhiều dòng cùng loại dịch vụ; khóa dòng = (so_phieu, stt).

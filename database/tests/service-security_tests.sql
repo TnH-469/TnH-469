@@ -384,7 +384,7 @@ INSERT #kq (ma, mo_ta, mong_doi, thuc_te, dat) VALUES (N'EX13', N'Chuyển nhóm
     IIF(@err = 50017 AND dbo.fn_CoQuyen(@u_admin, 1) = 1, 1, 0));
 
 /* ---------- 8b. v3: thêm tài khoản (sp_ThemTaiKhoan), sửa nhóm (sp_SuaNhom), sửa tài khoản (sp_SuaTaiKhoan) ----------
-   21 ca mới; đã chạy 54/54 PASS (11/11/2026), kết quả nằm trong test-evidence.md. */
+   21 ca mới (kết quả nằm trong test-evidence.md; toàn bộ bộ test v3 đạt 59/59 PASS ngày 12/11/2026). */
 DECLARE @nC int, @ma_ad int, @u_new int, @u_ad2 int;
 DECLARE @q2 dbo.DanhSachQuyenType;
 SET @ma_ad = (SELECT ma_nhom FROM dbo.NGUOI_DUNG WHERE ma_nguoi_dung = @u_admin);
