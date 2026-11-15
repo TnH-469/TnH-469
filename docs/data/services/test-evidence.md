@@ -5,7 +5,7 @@
 **Reviewer:** Hoàng, Truyền (Chờ review / Chờ ký)  
 **Hệ quản trị CSDL:** Microsoft SQL Server 2022 (Express Edition, 64-bit, v16.0.1000.6)  
 **Database kiểm thử:** `SE104_Test`  
-**Ngày thực hiện:** 14/11/2026 (v3 hoàn thiện 59 ca), 11/11/2026 (54 ca), 09/11/2026 (v2 33 ca)  
+**Ngày thực hiện:** 12/11/2026 (v3 hoàn thiện 59 ca), 11/11/2026 (54 ca), 09/11/2026 (v2 33 ca)  
 
 ---
 
